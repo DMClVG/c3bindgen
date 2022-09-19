@@ -1,0 +1,3 @@
+[submodule "lua-c-parser"]
+	path = lua-c-parser
+	url = https://github.com/vishnu-m/lua-c-parser.git
