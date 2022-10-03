@@ -182,7 +182,7 @@ function fn(name, inline, extname, ret, ...)
     assert(not isEmpty(name))
     assert(not isEmpty(ret))
 
-    local out = { "fn ", ret, " ", name, "("}
+    local out = { "extern fn ", ret, " ", name, "("}
     for i, param in ipairs(params) do
         tinsert(out, param.type)
         tinsert(out, " ")
